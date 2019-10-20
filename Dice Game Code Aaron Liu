@@ -34,6 +34,10 @@ void draw(){
   fill(0,0,0);
   textSize(100);
   text(total,tx,ty);
+  //if(keyPressed && t==0){
+    //t=1;
+    //die.num=(int)(Math.random()*6+1);
+  //}
   if(t>=1){
     t+=1;
   }
@@ -106,3 +110,4 @@ class dice
     }
   }
 }
+
